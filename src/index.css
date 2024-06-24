@@ -1,68 +1,97 @@
-:root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.header {
+  background-image: url("/images/bg-header-desktop.png");
+  text-align: center;
 }
-
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
+h6 {
+  color: #b1adade3;
 }
-a:hover {
-  color: #535bf2;
-}
-
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
-}
-
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-}
-
 button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
+  width: 150px;
+  height: 50px;
+  border: transparent;
+  border-radius: 50px;
   cursor: pointer;
-  transition: border-color 0.25s;
 }
-button:hover {
-  border-color: #646cff;
+.Green {
+  background-color: rgba(89, 160, 89, 0.705);
 }
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+.blue {
+  background: rgba(93, 93, 194, 0.479);
+}
+.middle {
+  text-align: center;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+.main-div {
+  width: 100%;
+  display: inline-flex;
+  flex-direction: row;
+  margin-bottom: 24px;
+}
+
+.third-div {
+  display: flex;
+  width: 50%;
+}
+
+.listdiv {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+h3 {
+  margin-bottom: -20px;
+  color: #535050;
+}
+.foruth-div {
+  text-align: center;
+}
+.fifth-div {
+  display: flex;
+}
+.icon {
+  margin: 70px;
+  text-align: center;
+}
+.sixth-div {
+  display: flex;
+}
+.Simage {
+  margin: 70px;
+}
+.seventh-div {
+  text-align: center;
+}
+.eighth-div {
+  display: flex;
+  background-image: url("/images/bg-header-desktop.png");
+}
+.Emargin {
+  margin: 30px;
+  margin-left: 70px;
+}
+.threelogodiv {
+  margin-left: 250px;
+}
+a {
+  color: #2a5add;
+  text-decoration: none;
+}
+.elogo {
+  margin: 40px;
+  height: 20px;
+  width: 20px;
+}
+
+.sv{
+  width: 100%;
+  height: 100%;
+}
+/* for double shadow */
+.multiple-shadows {
+  box-shadow: 
+      0 0 10px rgba(0, 0, 0, 0.5), /* First shadow */
+      0 0 20px rgba(0, 0, 255, 0.5); /* Second shadow */
 }

@@ -1,14 +1,7 @@
-import {createBrowserRouter, RouterProvider,} from "react-router-dom";
-import page1 from './Component/page1'
+
 import './App.css'
-const router = createBrowserRouter([
-  
-  {
-    path:"/",
-    element:<page1/>,
-  },
-  
-]);
+import Page1 from './Component/Page1'
+
 function App() {
   
 
@@ -16,6 +9,7 @@ function App() {
     <>
       <div>
       <h1>goodis good </h1>
+      <Page1 />
       
       </div>
       
